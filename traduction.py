@@ -25,6 +25,13 @@ langue_defaut = "russe"
 user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
 # ----------------------------------------------
 
+try:
+   if sys.argv[1]:
+      pass
+except IndexError:
+   print("\033[91mx Erreur\033[0m. Veuillez donner un mot à traduire.")
+   exit(1)
+
 class traduction:
    def __init__(self, langue:str, headers:str="", affi:str="menac") -> None:
       """
