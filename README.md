@@ -10,7 +10,7 @@ Vous devrez installer les bibliothèques suivantes pour le bon fonctionnement du
 
 Introduction du *user agent*. Pour effectuer des requêtes sur le web vous devez renseigner votre user agent. Vous pouvez l'obtenir ici : https://www.whatismybrowser.com/fr/detect/what-is-my-user-agent/.
 
-Dans mon c'est *"Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"*, à vous de le remplacer par le votre.
+Le mien est : *"Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"*, à vous de le remplacer par le votre.
 
 ## Paramétrage
 Les seules variables que vous pouvez modifier sont dans l'encadré *Info* au début du code :
